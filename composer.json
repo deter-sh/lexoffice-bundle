@@ -1,0 +1,30 @@
+{
+  "name": "deter-consulting/lexoffice-bundle",
+  "description": "This is a bundle to to use lexoffice with symfony",
+  "type": "symfony-bundle",
+  "require": {
+    "php": ">=8.2",
+    "guzzlehttp/guzzle": ">=7.8.*",
+    "symfony/symfony": ">=v6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "authors": [
+    {
+      "name": "Max Deter",
+      "email": "max@deter-consulting.de",
+      "homepage": "https://deter-consulting.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DeterConsulting\\LexofficeBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DeterConsulting\\LexofficeBundle\\Tests\\": "tests/"
+    }
+  }
+}
